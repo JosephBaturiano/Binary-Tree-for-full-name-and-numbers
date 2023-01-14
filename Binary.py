@@ -138,3 +138,9 @@ print("After deleting letter H, The current list of letters was now being shown 
 print("\nIn order traversal of the list:", name_tree.in_order_traversal())
 print("Pre order traversal of the list:", name_tree.pre_order_traversal())
 print("Post order traversal of the list:", name_tree.post_order_traversal())
+
+numbers_tree = build_tree(numbers)
+print('\n')
+print("-"*24)
+print("BINARY THREE FOR NUMBERS")
+print("Some random numbers:\n", numbers)
