@@ -76,3 +76,8 @@ class BinarySearchTreeNode:
         if self.left is None:
             return self.data
         return self.left.find_min()
+
+    def calculate_sum(self):
+        left_sum = self.left.calculate_sum() if self.left else 0
+        right_sum = self.right.calculate_sum() if self.right else 0
+        return self.data + left_sum + right_sum
