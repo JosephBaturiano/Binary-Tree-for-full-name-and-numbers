@@ -117,3 +117,8 @@ if __name__ == '__main__':
     name = ["J", "O", "S", "E", "P", "H", "Z", "B",
             "A", "T", "U", "R", "I", "A", "N", "O", "O"]
     numbers = [24, 21, 52, 15, 12, 7, 14, 27, 20, 23, 8, 7, 24]
+
+name_tree = build_tree(name)
+print("-"*32)
+print("BINARY THREE FOR LETTERS OF NAME")
+print("Letters of my full name:", name)
