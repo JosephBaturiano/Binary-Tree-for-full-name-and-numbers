@@ -148,3 +148,12 @@ print("\nMinimum value:", numbers_tree.find_min())
 print("Maximum value:", numbers_tree.find_max())
 print("Is the number 8 included int the list?:", numbers_tree.search(8))
 print("Is the number 99 included int the list?:", numbers_tree.search(99))
+numbers_tree.delete(23)
+print("After deleting number 23, The current list for numbers was now being shown in order traversal:\n",
+      numbers_tree.in_order_traversal())
+numbers_tree.delete(7)
+print("After deleting number 7, The current list for numbers was now being shown in order traversal:\n",
+      numbers_tree.in_order_traversal())
+numbers_tree.delete(12)
+print("After deleting number 12, The current list for numbers was now being shown in order traversal:\n",
+      numbers_tree.in_order_traversal())
