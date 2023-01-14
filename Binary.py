@@ -126,3 +126,12 @@ print("\nMinimum value:", name_tree.find_min())
 print("Maximum value:", name_tree.find_max())
 print("Is the letter P included int the list?:", name_tree.search("P"))
 print("Is the letter Q included int the list?:", name_tree.search("Q"))
+name_tree.delete("A")
+print("After deleting letter A, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
+name_tree.delete("R")
+print("After deleting letter R, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
+name_tree.delete("H")
+print("After deleting letter H, The current list of letters was now being shown in order traversal:\n",
+      name_tree.in_order_traversal())
